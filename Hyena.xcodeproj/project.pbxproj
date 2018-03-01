@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFEAB1F92047BCE7003F0BE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAB1F82047BCE7003F0BE7 /* AppDelegate.m */; };
+		FFEAB2012047BCE7003F0BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEAB2002047BCE7003F0BE7 /* Assets.xcassets */; };
+		FFEAB2042047BCE7003F0BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEAB2022047BCE7003F0BE7 /* LaunchScreen.storyboard */; };
+		FFEAB2072047BCE7003F0BE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAB2062047BCE7003F0BE7 /* main.m */; };
+		FFEAB2112047BCE7003F0BE7 /* HyenaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAB2102047BCE7003F0BE7 /* HyenaTests.m */; };
+		FFEAB21C2047BCE7003F0BE7 /* HyenaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAB21B2047BCE7003F0BE7 /* HyenaUITests.m */; };
+		FFEAB22B2047BE69003F0BE7 /* MainMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAB22A2047BE69003F0BE7 /* MainMenuTableViewController.m */; };
+		FFEAB22E2047CB4C003F0BE7 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAB22D2047CB4C003F0BE7 /* MainNavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFEAB20D2047BCE7003F0BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEAB1EC2047BCE7003F0BE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFEAB1F32047BCE7003F0BE7;
+			remoteInfo = Hyena;
+		};
+		FFEAB2182047BCE7003F0BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEAB1EC2047BCE7003F0BE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFEAB1F32047BCE7003F0BE7;
+			remoteInfo = Hyena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFEAB1F42047BCE7003F0BE7 /* Hyena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hyena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEAB1F72047BCE7003F0BE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFEAB1F82047BCE7003F0BE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFEAB2002047BCE7003F0BE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFEAB2032047BCE7003F0BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFEAB2052047BCE7003F0BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEAB2062047BCE7003F0BE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFEAB20C2047BCE7003F0BE7 /* HyenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEAB2102047BCE7003F0BE7 /* HyenaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyenaTests.m; sourceTree = "<group>"; };
+		FFEAB2122047BCE7003F0BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEAB2172047BCE7003F0BE7 /* HyenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEAB21B2047BCE7003F0BE7 /* HyenaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyenaUITests.m; sourceTree = "<group>"; };
+		FFEAB21D2047BCE7003F0BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEAB2292047BE69003F0BE7 /* MainMenuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuTableViewController.h; sourceTree = "<group>"; };
+		FFEAB22A2047BE69003F0BE7 /* MainMenuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuTableViewController.m; sourceTree = "<group>"; };
+		FFEAB22C2047CB4C003F0BE7 /* MainNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		FFEAB22D2047CB4C003F0BE7 /* MainNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFEAB1F12047BCE7003F0BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEAB2092047BCE7003F0BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEAB2142047BCE7003F0BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFEAB1EB2047BCE7003F0BE7 = {
+			isa = PBXGroup;
+			children = (
+				FFEAB1F62047BCE7003F0BE7 /* Hyena */,
+				FFEAB20F2047BCE7003F0BE7 /* HyenaTests */,
+				FFEAB21A2047BCE7003F0BE7 /* HyenaUITests */,
+				FFEAB1F52047BCE7003F0BE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFEAB1F52047BCE7003F0BE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFEAB1F42047BCE7003F0BE7 /* Hyena.app */,
+				FFEAB20C2047BCE7003F0BE7 /* HyenaTests.xctest */,
+				FFEAB2172047BCE7003F0BE7 /* HyenaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFEAB1F62047BCE7003F0BE7 /* Hyena */ = {
+			isa = PBXGroup;
+			children = (
+				FFEAB1F72047BCE7003F0BE7 /* AppDelegate.h */,
+				FFEAB1F82047BCE7003F0BE7 /* AppDelegate.m */,
+				FFEAB2002047BCE7003F0BE7 /* Assets.xcassets */,
+				FFEAB2022047BCE7003F0BE7 /* LaunchScreen.storyboard */,
+				FFEAB2052047BCE7003F0BE7 /* Info.plist */,
+				FFEAB2062047BCE7003F0BE7 /* main.m */,
+				FFEAB2292047BE69003F0BE7 /* MainMenuTableViewController.h */,
+				FFEAB22A2047BE69003F0BE7 /* MainMenuTableViewController.m */,
+				FFEAB22C2047CB4C003F0BE7 /* MainNavigationViewController.h */,
+				FFEAB22D2047CB4C003F0BE7 /* MainNavigationViewController.m */,
+			);
+			path = Hyena;
+			sourceTree = "<group>";
+		};
+		FFEAB20F2047BCE7003F0BE7 /* HyenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFEAB2102047BCE7003F0BE7 /* HyenaTests.m */,
+				FFEAB2122047BCE7003F0BE7 /* Info.plist */,
+			);
+			path = HyenaTests;
+			sourceTree = "<group>";
+		};
+		FFEAB21A2047BCE7003F0BE7 /* HyenaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFEAB21B2047BCE7003F0BE7 /* HyenaUITests.m */,
+				FFEAB21D2047BCE7003F0BE7 /* Info.plist */,
+			);
+			path = HyenaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFEAB1F32047BCE7003F0BE7 /* Hyena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFEAB2202047BCE7003F0BE7 /* Build configuration list for PBXNativeTarget "Hyena" */;
+			buildPhases = (
+				FFEAB1F02047BCE7003F0BE7 /* Sources */,
+				FFEAB1F12047BCE7003F0BE7 /* Frameworks */,
+				FFEAB1F22047BCE7003F0BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hyena;
+			productName = Hyena;
+			productReference = FFEAB1F42047BCE7003F0BE7 /* Hyena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFEAB20B2047BCE7003F0BE7 /* HyenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFEAB2232047BCE7003F0BE7 /* Build configuration list for PBXNativeTarget "HyenaTests" */;
+			buildPhases = (
+				FFEAB2082047BCE7003F0BE7 /* Sources */,
+				FFEAB2092047BCE7003F0BE7 /* Frameworks */,
+				FFEAB20A2047BCE7003F0BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFEAB20E2047BCE7003F0BE7 /* PBXTargetDependency */,
+			);
+			name = HyenaTests;
+			productName = HyenaTests;
+			productReference = FFEAB20C2047BCE7003F0BE7 /* HyenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFEAB2162047BCE7003F0BE7 /* HyenaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFEAB2262047BCE7003F0BE7 /* Build configuration list for PBXNativeTarget "HyenaUITests" */;
+			buildPhases = (
+				FFEAB2132047BCE7003F0BE7 /* Sources */,
+				FFEAB2142047BCE7003F0BE7 /* Frameworks */,
+				FFEAB2152047BCE7003F0BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFEAB2192047BCE7003F0BE7 /* PBXTargetDependency */,
+			);
+			name = HyenaUITests;
+			productName = HyenaUITests;
+			productReference = FFEAB2172047BCE7003F0BE7 /* HyenaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFEAB1EC2047BCE7003F0BE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Noctiz;
+				TargetAttributes = {
+					FFEAB1F32047BCE7003F0BE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FFEAB20B2047BCE7003F0BE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFEAB1F32047BCE7003F0BE7;
+					};
+					FFEAB2162047BCE7003F0BE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFEAB1F32047BCE7003F0BE7;
+					};
+				};
+			};
+			buildConfigurationList = FFEAB1EF2047BCE7003F0BE7 /* Build configuration list for PBXProject "Hyena" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFEAB1EB2047BCE7003F0BE7;
+			productRefGroup = FFEAB1F52047BCE7003F0BE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFEAB1F32047BCE7003F0BE7 /* Hyena */,
+				FFEAB20B2047BCE7003F0BE7 /* HyenaTests */,
+				FFEAB2162047BCE7003F0BE7 /* HyenaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFEAB1F22047BCE7003F0BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEAB2042047BCE7003F0BE7 /* LaunchScreen.storyboard in Resources */,
+				FFEAB2012047BCE7003F0BE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEAB20A2047BCE7003F0BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEAB2152047BCE7003F0BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFEAB1F02047BCE7003F0BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEAB2072047BCE7003F0BE7 /* main.m in Sources */,
+				FFEAB22E2047CB4C003F0BE7 /* MainNavigationViewController.m in Sources */,
+				FFEAB1F92047BCE7003F0BE7 /* AppDelegate.m in Sources */,
+				FFEAB22B2047BE69003F0BE7 /* MainMenuTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEAB2082047BCE7003F0BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEAB2112047BCE7003F0BE7 /* HyenaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEAB2132047BCE7003F0BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEAB21C2047BCE7003F0BE7 /* HyenaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFEAB20E2047BCE7003F0BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFEAB1F32047BCE7003F0BE7 /* Hyena */;
+			targetProxy = FFEAB20D2047BCE7003F0BE7 /* PBXContainerItemProxy */;
+		};
+		FFEAB2192047BCE7003F0BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFEAB1F32047BCE7003F0BE7 /* Hyena */;
+			targetProxy = FFEAB2182047BCE7003F0BE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFEAB2022047BCE7003F0BE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFEAB2032047BCE7003F0BE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFEAB21E2047BCE7003F0BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFEAB21F2047BCE7003F0BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFEAB2212047BCE7003F0BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U8SJP9XUE;
+				INFOPLIST_FILE = Hyena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noctiz.Hyena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFEAB2222047BCE7003F0BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U8SJP9XUE;
+				INFOPLIST_FILE = Hyena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noctiz.Hyena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFEAB2242047BCE7003F0BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U8SJP9XUE;
+				INFOPLIST_FILE = HyenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noctiz.HyenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hyena.app/Hyena";
+			};
+			name = Debug;
+		};
+		FFEAB2252047BCE7003F0BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U8SJP9XUE;
+				INFOPLIST_FILE = HyenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noctiz.HyenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hyena.app/Hyena";
+			};
+			name = Release;
+		};
+		FFEAB2272047BCE7003F0BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U8SJP9XUE;
+				INFOPLIST_FILE = HyenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noctiz.HyenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hyena;
+			};
+			name = Debug;
+		};
+		FFEAB2282047BCE7003F0BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U8SJP9XUE;
+				INFOPLIST_FILE = HyenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noctiz.HyenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hyena;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFEAB1EF2047BCE7003F0BE7 /* Build configuration list for PBXProject "Hyena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEAB21E2047BCE7003F0BE7 /* Debug */,
+				FFEAB21F2047BCE7003F0BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFEAB2202047BCE7003F0BE7 /* Build configuration list for PBXNativeTarget "Hyena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEAB2212047BCE7003F0BE7 /* Debug */,
+				FFEAB2222047BCE7003F0BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFEAB2232047BCE7003F0BE7 /* Build configuration list for PBXNativeTarget "HyenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEAB2242047BCE7003F0BE7 /* Debug */,
+				FFEAB2252047BCE7003F0BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFEAB2262047BCE7003F0BE7 /* Build configuration list for PBXNativeTarget "HyenaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEAB2272047BCE7003F0BE7 /* Debug */,
+				FFEAB2282047BCE7003F0BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFEAB1EC2047BCE7003F0BE7 /* Project object */;
+}
