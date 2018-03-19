@@ -8,6 +8,7 @@
 
 #import "MainNavigationViewController.h"
 #import "MainMenuTableViewController.h"
+#import "UIColor+ConfigColor.h"
 
 @interface MainNavigationViewController ()
 
@@ -28,7 +29,7 @@
 
 - (void)configToolBar
 {
-    [self.navigationBar setTintColor:[UIColor whiteColor]];
+    [self.navigationBar setTintColor:[UIColor colorFlickrCyan]];
     [self setToolbarHidden:NO animated:NO];
 }
 
