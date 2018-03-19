@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF5FE3B2205F70D70091A047 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3B1205F70D70091A047 /* FlickrPhoto.m */; };
 		FFEAB1F92047BCE7003F0BE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAB1F82047BCE7003F0BE7 /* AppDelegate.m */; };
 		FFEAB2012047BCE7003F0BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEAB2002047BCE7003F0BE7 /* Assets.xcassets */; };
 		FFEAB2042047BCE7003F0BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEAB2022047BCE7003F0BE7 /* LaunchScreen.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF5FE3B0205F70D70091A047 /* FlickrPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		FF5FE3B1205F70D70091A047 /* FlickrPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
 		FFEAB1F42047BCE7003F0BE7 /* Hyena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hyena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEAB1F72047BCE7003F0BE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFEAB1F82047BCE7003F0BE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF5FE3AF205F70A80091A047 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF5FE3B0205F70D70091A047 /* FlickrPhoto.h */,
+				FF5FE3B1205F70D70091A047 /* FlickrPhoto.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF5FE3B3205F70F80091A047 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFEAB2292047BE69003F0BE7 /* MainMenuTableViewController.h */,
+				FFEAB22A2047BE69003F0BE7 /* MainMenuTableViewController.m */,
+				FFEAB22C2047CB4C003F0BE7 /* MainNavigationViewController.h */,
+				FFEAB22D2047CB4C003F0BE7 /* MainNavigationViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		FFEAB1EB2047BCE7003F0BE7 = {
 			isa = PBXGroup;
 			children = (
@@ -102,16 +125,14 @@
 		FFEAB1F62047BCE7003F0BE7 /* Hyena */ = {
 			isa = PBXGroup;
 			children = (
+				FF5FE3B3205F70F80091A047 /* ViewControllers */,
+				FF5FE3AF205F70A80091A047 /* Models */,
 				FFEAB1F72047BCE7003F0BE7 /* AppDelegate.h */,
 				FFEAB1F82047BCE7003F0BE7 /* AppDelegate.m */,
 				FFEAB2002047BCE7003F0BE7 /* Assets.xcassets */,
 				FFEAB2022047BCE7003F0BE7 /* LaunchScreen.storyboard */,
 				FFEAB2052047BCE7003F0BE7 /* Info.plist */,
 				FFEAB2062047BCE7003F0BE7 /* main.m */,
-				FFEAB2292047BE69003F0BE7 /* MainMenuTableViewController.h */,
-				FFEAB22A2047BE69003F0BE7 /* MainMenuTableViewController.m */,
-				FFEAB22C2047CB4C003F0BE7 /* MainNavigationViewController.h */,
-				FFEAB22D2047CB4C003F0BE7 /* MainNavigationViewController.m */,
 			);
 			path = Hyena;
 			sourceTree = "<group>";
@@ -269,6 +290,7 @@
 				FFEAB2072047BCE7003F0BE7 /* main.m in Sources */,
 				FFEAB22E2047CB4C003F0BE7 /* MainNavigationViewController.m in Sources */,
 				FFEAB1F92047BCE7003F0BE7 /* AppDelegate.m in Sources */,
+				FF5FE3B2205F70D70091A047 /* FlickrPhoto.m in Sources */,
 				FFEAB22B2047BE69003F0BE7 /* MainMenuTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,13 +10,30 @@
 
 @interface MainMenuTableViewController ()
 
+@property (nonatomic, strong) NSArray<UITableViewCell *> *cells;
+@property (nonatomic, strong) UITableViewCell *settingCell;
+
 @end
 
 @implementation MainMenuTableViewController
 
+- (void)loadView
+{
+    [super loadView];
+    UITableViewCell *firstCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
+    firstCell.textLabel.text = @"Flickr Photo Gallery";
+    firstCell.detailTextLabel.text = @"Collection View";
+    self.settingCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
+    self.settingCell.textLabel.text = @"Settings";
+    
+    self.cells = @[firstCell];
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self.tableView setScrollEnabled:NO];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -36,21 +53,39 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    switch(section)
+    {
+        case 0:  return [self.cells count]; break;
+        case 1:  return 1; break;
+        default: return 0;
+    };
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"menuCell"];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"menuCell"];
-        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    switch(indexPath.section)
+    {
+        case 0:
+            return self.cells[indexPath.row];
+        case 1:
+            switch(indexPath.row)
+            {
+                case 0: return self.settingCell;
+            }
     }
-    
-    cell.textLabel.text = @"mainTitleKey";
-    cell.detailTextLabel.text = @"secondaryTitleKey";
-    
-    return cell;
+    return nil;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    switch (section) {
+        case 0:
+            return @"Functions"; break;
+        case 1:
+            return @"Settings"; break;
+        default: break;
+    }
+    return nil;
 }
 
 
