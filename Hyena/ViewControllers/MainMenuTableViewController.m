@@ -7,6 +7,8 @@
 //
 
 #import "MainMenuTableViewController.h"
+#import "PhotoCollectionViewController.h"
+#import "PhotoCollectionFlowLayout.h"
 
 @interface MainMenuTableViewController ()
 
@@ -88,6 +90,31 @@
     return nil;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch (indexPath.section) {
+        case 0:
+            switch (indexPath.row) {
+                case 0:
+                    [tableView deselectRowAtIndexPath:indexPath animated:false];
+                    [self goToPhotoCollection];
+                    break;
+                    
+                default:
+                    break;
+            }
+            break;
+            
+        default:
+            break;
+    }
+}
+
+- (void) goToPhotoCollection
+{
+    PhotoCollectionViewController *configViewController = [[PhotoCollectionViewController alloc] initWithCollectionViewLayout:[[PhotoCollectionFlowLayout alloc] init]];
+    [self.navigationController pushViewController:configViewController animated:YES];
+}
 
 /*
 // Override to support conditional editing of the table view.

@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FF5FE3B2205F70D70091A047 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3B1205F70D70091A047 /* FlickrPhoto.m */; };
+		FF5FE3B6205F727C0091A047 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3B5205F727C0091A047 /* PhotoCollectionViewCell.m */; };
+		FF5FE3BA205F74980091A047 /* FlickrPhotoService.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3B9205F74980091A047 /* FlickrPhotoService.m */; };
+		FF5FE3C1205F76390091A047 /* ConfigUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3C0205F76390091A047 /* ConfigUtility.m */; };
+		FF5FE3C4205F76E30091A047 /* UIColor+ConfigColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3C3205F76E30091A047 /* UIColor+ConfigColor.m */; };
+		FF5FE3C7205F7A8E0091A047 /* PhotoCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3C6205F7A8E0091A047 /* PhotoCollectionFlowLayout.m */; };
+		FF5FE3CA205F7C720091A047 /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3C9205F7C720091A047 /* PhotoCollectionViewController.m */; };
 		FFEAB1F92047BCE7003F0BE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAB1F82047BCE7003F0BE7 /* AppDelegate.m */; };
 		FFEAB2012047BCE7003F0BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEAB2002047BCE7003F0BE7 /* Assets.xcassets */; };
 		FFEAB2042047BCE7003F0BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEAB2022047BCE7003F0BE7 /* LaunchScreen.storyboard */; };
@@ -38,6 +44,18 @@
 /* Begin PBXFileReference section */
 		FF5FE3B0205F70D70091A047 /* FlickrPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
 		FF5FE3B1205F70D70091A047 /* FlickrPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		FF5FE3B4205F727C0091A047 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		FF5FE3B5205F727C0091A047 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		FF5FE3B8205F74980091A047 /* FlickrPhotoService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoService.h; sourceTree = "<group>"; };
+		FF5FE3B9205F74980091A047 /* FlickrPhotoService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoService.m; sourceTree = "<group>"; };
+		FF5FE3BF205F76390091A047 /* ConfigUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigUtility.h; sourceTree = "<group>"; };
+		FF5FE3C0205F76390091A047 /* ConfigUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigUtility.m; sourceTree = "<group>"; };
+		FF5FE3C2205F76E30091A047 /* UIColor+ConfigColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ConfigColor.h"; sourceTree = "<group>"; };
+		FF5FE3C3205F76E30091A047 /* UIColor+ConfigColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ConfigColor.m"; sourceTree = "<group>"; };
+		FF5FE3C5205F7A8E0091A047 /* PhotoCollectionFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionFlowLayout.h; sourceTree = "<group>"; };
+		FF5FE3C6205F7A8E0091A047 /* PhotoCollectionFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionFlowLayout.m; sourceTree = "<group>"; };
+		FF5FE3C8205F7C720091A047 /* PhotoCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewController.h; sourceTree = "<group>"; };
+		FF5FE3C9205F7C720091A047 /* PhotoCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewController.m; sourceTree = "<group>"; };
 		FFEAB1F42047BCE7003F0BE7 /* Hyena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hyena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEAB1F72047BCE7003F0BE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFEAB1F82047BCE7003F0BE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +105,8 @@
 			children = (
 				FF5FE3B0205F70D70091A047 /* FlickrPhoto.h */,
 				FF5FE3B1205F70D70091A047 /* FlickrPhoto.m */,
+				FF5FE3B4205F727C0091A047 /* PhotoCollectionViewCell.h */,
+				FF5FE3B5205F727C0091A047 /* PhotoCollectionViewCell.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -98,8 +118,32 @@
 				FFEAB22A2047BE69003F0BE7 /* MainMenuTableViewController.m */,
 				FFEAB22C2047CB4C003F0BE7 /* MainNavigationViewController.h */,
 				FFEAB22D2047CB4C003F0BE7 /* MainNavigationViewController.m */,
+				FF5FE3C8205F7C720091A047 /* PhotoCollectionViewController.h */,
+				FF5FE3C9205F7C720091A047 /* PhotoCollectionViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FF5FE3B7205F736D0091A047 /* FlickrServices */ = {
+			isa = PBXGroup;
+			children = (
+				FF5FE3B8205F74980091A047 /* FlickrPhotoService.h */,
+				FF5FE3B9205F74980091A047 /* FlickrPhotoService.m */,
+			);
+			path = FlickrServices;
+			sourceTree = "<group>";
+		};
+		FF5FE3BB205F74BF0091A047 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FF5FE3BF205F76390091A047 /* ConfigUtility.h */,
+				FF5FE3C0205F76390091A047 /* ConfigUtility.m */,
+				FF5FE3C2205F76E30091A047 /* UIColor+ConfigColor.h */,
+				FF5FE3C3205F76E30091A047 /* UIColor+ConfigColor.m */,
+				FF5FE3C5205F7A8E0091A047 /* PhotoCollectionFlowLayout.h */,
+				FF5FE3C6205F7A8E0091A047 /* PhotoCollectionFlowLayout.m */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		FFEAB1EB2047BCE7003F0BE7 = {
@@ -125,6 +169,8 @@
 		FFEAB1F62047BCE7003F0BE7 /* Hyena */ = {
 			isa = PBXGroup;
 			children = (
+				FF5FE3BB205F74BF0091A047 /* Utilities */,
+				FF5FE3B7205F736D0091A047 /* FlickrServices */,
 				FF5FE3B3205F70F80091A047 /* ViewControllers */,
 				FF5FE3AF205F70A80091A047 /* Models */,
 				FFEAB1F72047BCE7003F0BE7 /* AppDelegate.h */,
@@ -288,6 +334,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFEAB2072047BCE7003F0BE7 /* main.m in Sources */,
+				FF5FE3BA205F74980091A047 /* FlickrPhotoService.m in Sources */,
+				FF5FE3C4205F76E30091A047 /* UIColor+ConfigColor.m in Sources */,
+				FF5FE3B6205F727C0091A047 /* PhotoCollectionViewCell.m in Sources */,
+				FF5FE3C7205F7A8E0091A047 /* PhotoCollectionFlowLayout.m in Sources */,
+				FF5FE3C1205F76390091A047 /* ConfigUtility.m in Sources */,
+				FF5FE3CA205F7C720091A047 /* PhotoCollectionViewController.m in Sources */,
 				FFEAB22E2047CB4C003F0BE7 /* MainNavigationViewController.m in Sources */,
 				FFEAB1F92047BCE7003F0BE7 /* AppDelegate.m in Sources */,
 				FF5FE3B2205F70D70091A047 /* FlickrPhoto.m in Sources */,
