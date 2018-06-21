@@ -14,6 +14,7 @@
 		FF5FE3C4205F76E30091A047 /* UIColor+ConfigColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3C3205F76E30091A047 /* UIColor+ConfigColor.m */; };
 		FF5FE3C7205F7A8E0091A047 /* PhotoCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3C6205F7A8E0091A047 /* PhotoCollectionFlowLayout.m */; };
 		FF5FE3CA205F7C720091A047 /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FE3C9205F7C720091A047 /* PhotoCollectionViewController.m */; };
+		FFC7285C20DB3FC300059B06 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC7285B20DB3FC300059B06 /* MessageTableViewController.m */; };
 		FFEAB1F92047BCE7003F0BE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAB1F82047BCE7003F0BE7 /* AppDelegate.m */; };
 		FFEAB2012047BCE7003F0BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEAB2002047BCE7003F0BE7 /* Assets.xcassets */; };
 		FFEAB2042047BCE7003F0BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEAB2022047BCE7003F0BE7 /* LaunchScreen.storyboard */; };
@@ -56,6 +57,8 @@
 		FF5FE3C6205F7A8E0091A047 /* PhotoCollectionFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionFlowLayout.m; sourceTree = "<group>"; };
 		FF5FE3C8205F7C720091A047 /* PhotoCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewController.h; sourceTree = "<group>"; };
 		FF5FE3C9205F7C720091A047 /* PhotoCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewController.m; sourceTree = "<group>"; };
+		FFC7285A20DB3FC300059B06 /* MessageTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageTableViewController.h; sourceTree = "<group>"; };
+		FFC7285B20DB3FC300059B06 /* MessageTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewController.m; sourceTree = "<group>"; };
 		FFEAB1F42047BCE7003F0BE7 /* Hyena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hyena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEAB1F72047BCE7003F0BE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFEAB1F82047BCE7003F0BE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				FFEAB22D2047CB4C003F0BE7 /* MainNavigationViewController.m */,
 				FF5FE3C8205F7C720091A047 /* PhotoCollectionViewController.h */,
 				FF5FE3C9205F7C720091A047 /* PhotoCollectionViewController.m */,
+				FFC7285A20DB3FC300059B06 /* MessageTableViewController.h */,
+				FFC7285B20DB3FC300059B06 /* MessageTableViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -344,6 +349,7 @@
 				FFEAB1F92047BCE7003F0BE7 /* AppDelegate.m in Sources */,
 				FF5FE3B2205F70D70091A047 /* FlickrPhoto.m in Sources */,
 				FFEAB22B2047BE69003F0BE7 /* MainMenuTableViewController.m in Sources */,
+				FFC7285C20DB3FC300059B06 /* MessageTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

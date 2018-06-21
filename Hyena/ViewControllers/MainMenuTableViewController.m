@@ -9,6 +9,7 @@
 #import "MainMenuTableViewController.h"
 #import "PhotoCollectionViewController.h"
 #import "PhotoCollectionFlowLayout.h"
+#import "MessageTableViewController.h"
 
 @interface MainMenuTableViewController ()
 
@@ -26,7 +27,7 @@
     firstCell.textLabel.text = @"Flickr Photo Gallery";
     firstCell.detailTextLabel.text = @"Collection View";
     UITableViewCell *secondCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
-    secondCell.textLabel.text = @"Message Logs";
+    secondCell.textLabel.text = @"Message Log";
     secondCell.detailTextLabel.text = @"Table View";
     self.cells = @[firstCell, secondCell];
     
@@ -100,7 +101,9 @@
                 case 0:
                     [self goToPhotoCollection];
                     break;
-                    
+                case 1:
+                    [self goToMessageLog];
+                    break;
                 default:
                     break;
             }
@@ -116,8 +119,14 @@
 
 - (void) goToPhotoCollection
 {
-    PhotoCollectionViewController *configViewController = [[PhotoCollectionViewController alloc] initWithCollectionViewLayout:[[PhotoCollectionFlowLayout alloc] init]];
-    [self.navigationController pushViewController:configViewController animated:YES];
+    PhotoCollectionViewController *collectionViewController = [[PhotoCollectionViewController alloc] initWithCollectionViewLayout:[[PhotoCollectionFlowLayout alloc] init]];
+    [self.navigationController pushViewController:collectionViewController animated:YES];
+}
+
+- (void) goToMessageLog
+{
+    MessageTableViewController *messageViewController = [[MessageTableViewController alloc] init];
+    [self.navigationController pushViewController:messageViewController animated:YES];
 }
 
 /*
