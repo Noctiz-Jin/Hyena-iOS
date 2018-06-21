@@ -21,10 +21,10 @@
     self = [super init];
     if (self)
     {
-        self.farmId = farmId;
-        self.serverId = serverId;
-        self.photoId = photoId;
-        self.secret = secret;
+        _farmId = farmId;
+        _serverId = serverId;
+        _photoId = photoId;
+        _secret = secret;
     }
     
     return self;
