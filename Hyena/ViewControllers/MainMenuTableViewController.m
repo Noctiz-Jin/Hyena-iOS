@@ -25,11 +25,13 @@
     UITableViewCell *firstCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
     firstCell.textLabel.text = @"Flickr Photo Gallery";
     firstCell.detailTextLabel.text = @"Collection View";
+    UITableViewCell *secondCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
+    secondCell.textLabel.text = @"Message Logs";
+    secondCell.detailTextLabel.text = @"Table View";
+    self.cells = @[firstCell, secondCell];
+    
     self.settingCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
     self.settingCell.textLabel.text = @"Settings";
-    
-    self.cells = @[firstCell];
-    
 }
 
 - (void)viewDidLoad {
@@ -48,7 +50,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
+#pragma mark - Table view data source / delegate
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 2;
@@ -96,7 +98,6 @@
         case 0:
             switch (indexPath.row) {
                 case 0:
-                    [tableView deselectRowAtIndexPath:indexPath animated:false];
                     [self goToPhotoCollection];
                     break;
                     
@@ -108,7 +109,10 @@
         default:
             break;
     }
+    [tableView deselectRowAtIndexPath:indexPath animated:false];
 }
+
+#pragma mark - Segue
 
 - (void) goToPhotoCollection
 {
