@@ -29,7 +29,10 @@
     [self.tableView setBackgroundColor:[UIColor whiteColor]];
     [self.tableView registerClass:[MessageTableViewCell class] forCellReuseIdentifier:[MessageTableViewCell identifier]];
     
-    self.messages = @[[[TableMessage alloc] initWithTitle:@"apple" withText:@"adjsfoadjoa;fjsksafjdklasjflsafdas"], [[TableMessage alloc] initWithTitle:@"banana" withText:@"fjeiowaejifaoifdhakdjshfakdfh"], [[TableMessage alloc] initWithTitle:@"peach" withText:@"pajefpeajflaekjfladjflkasdfja"]];
+    [self.tableView setRowHeight:UITableViewAutomaticDimension];
+    [self.tableView setEstimatedRowHeight:100];
+    
+    self.messages = @[[[TableMessage alloc] initWithTitle:@"apple" withText:@"adjsfoadjoa;fjsksafjdklasjflsafdas"], [[TableMessage alloc] initWithTitle:@"banana" withText:@"fjeiowaejifaoifdhfdasfadfafadfdasfadsfadsfadsfdasfdsafadsfasfadfadsfadfadsfadsfdasfdasfadsfadsfakdjshfakdfh"], [[TableMessage alloc] initWithTitle:@"peach" withText:@"pajefpeajflaekjfladjflkasdfja"]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,7 +52,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 150;
+    return UITableViewAutomaticDimension;
 }
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath { 
@@ -66,16 +69,6 @@
     // Undo all these in - (void)tableView:(UITableView *)tableView cancelPrefetchingForRowsAtIndexPaths:(NSArray<NSIndexPath *> *)indexPaths;
     
 }
-
-/*
- - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
- UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
- 
- // Configure the cell...
- 
- return cell;
- }
- */
 
 /*
  // Override to support conditional editing of the table view.
